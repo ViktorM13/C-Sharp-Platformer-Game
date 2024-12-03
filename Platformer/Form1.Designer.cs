@@ -244,7 +244,7 @@
             // 
             this.enemy_1.BackColor = System.Drawing.Color.Transparent;
             this.enemy_1.Image = ((System.Drawing.Image)(resources.GetObject("enemy_1.Image")));
-            this.enemy_1.Location = new System.Drawing.Point(318, 386);
+            this.enemy_1.Location = new System.Drawing.Point(295, 410);
             this.enemy_1.Name = "enemy_1";
             this.enemy_1.Size = new System.Drawing.Size(25, 25);
             this.enemy_1.TabIndex = 19;
