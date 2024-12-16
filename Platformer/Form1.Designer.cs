@@ -28,184 +28,186 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Window));
-            this.Score = new System.Windows.Forms.Label();
-            this.Ground_2 = new System.Windows.Forms.PictureBox();
-            this.Ground_1 = new System.Windows.Forms.PictureBox();
-            this.stone_1 = new System.Windows.Forms.PictureBox();
-            this.stone_2 = new System.Windows.Forms.PictureBox();
-            this.stone_3 = new System.Windows.Forms.PictureBox();
-            this.moving_Stone_1 = new System.Windows.Forms.PictureBox();
-            this.stone_4 = new System.Windows.Forms.PictureBox();
-            this.stone_5 = new System.Windows.Forms.PictureBox();
-            this.stone_7 = new System.Windows.Forms.PictureBox();
-            this.moving_Stone_2 = new System.Windows.Forms.PictureBox();
-            this.stone_6 = new System.Windows.Forms.PictureBox();
+            this.scoreText = new System.Windows.Forms.Label();
+            this.ground2 = new System.Windows.Forms.PictureBox();
+            this.ground1 = new System.Windows.Forms.PictureBox();
+            this.stone1 = new System.Windows.Forms.PictureBox();
+            this.stone2 = new System.Windows.Forms.PictureBox();
+            this.stone3 = new System.Windows.Forms.PictureBox();
+            this.horizontalMovingStone = new System.Windows.Forms.PictureBox();
+            this.stone4 = new System.Windows.Forms.PictureBox();
+            this.stone5 = new System.Windows.Forms.PictureBox();
+            this.stone7 = new System.Windows.Forms.PictureBox();
+            this.verticalMovingStone = new System.Windows.Forms.PictureBox();
+            this.stone6 = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
             this.pointer = new System.Windows.Forms.PictureBox();
-            this.money_2 = new System.Windows.Forms.PictureBox();
-            this.enemy_1 = new System.Windows.Forms.PictureBox();
-            this.money_4 = new System.Windows.Forms.PictureBox();
-            this.money_1 = new System.Windows.Forms.PictureBox();
-            this.money_5 = new System.Windows.Forms.PictureBox();
-            this.money_6 = new System.Windows.Forms.PictureBox();
-            this.money_8 = new System.Windows.Forms.PictureBox();
-            this.money_9 = new System.Windows.Forms.PictureBox();
-            this.money_10 = new System.Windows.Forms.PictureBox();
-            this.money_11 = new System.Windows.Forms.PictureBox();
-            this.money_12 = new System.Windows.Forms.PictureBox();
-            this.money_3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.Ground_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ground_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.moving_Stone_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.moving_Stone_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_6)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.enemy2 = new System.Windows.Forms.PictureBox();
+            this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.enemy1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ground2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ground1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.horizontalMovingStone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.verticalMovingStone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pointer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemy_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Score
+            // scoreText
             // 
-            this.Score.BackColor = System.Drawing.Color.Transparent;
-            this.Score.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Score.Location = new System.Drawing.Point(660, 9);
-            this.Score.Name = "Score";
-            this.Score.Size = new System.Drawing.Size(212, 78);
-            this.Score.TabIndex = 0;
-            this.Score.Text = "Score:0";
-            this.Score.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.Score.Click += new System.EventHandler(this.label1_Click);
+            this.scoreText.BackColor = System.Drawing.Color.Transparent;
+            this.scoreText.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.scoreText.Location = new System.Drawing.Point(660, 9);
+            this.scoreText.Name = "scoreText";
+            this.scoreText.Size = new System.Drawing.Size(212, 78);
+            this.scoreText.TabIndex = 0;
+            this.scoreText.Text = "Score:0";
+            this.scoreText.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // Ground_2
+            // ground2
             // 
-            this.Ground_2.Image = ((System.Drawing.Image)(resources.GetObject("Ground_2.Image")));
-            this.Ground_2.Location = new System.Drawing.Point(584, 510);
-            this.Ground_2.Name = "Ground_2";
-            this.Ground_2.Size = new System.Drawing.Size(300, 50);
-            this.Ground_2.TabIndex = 4;
-            this.Ground_2.TabStop = false;
-            this.Ground_2.Tag = "Ground";
+            this.ground2.Image = ((System.Drawing.Image)(resources.GetObject("ground2.Image")));
+            this.ground2.Location = new System.Drawing.Point(585, 510);
+            this.ground2.Name = "ground2";
+            this.ground2.Size = new System.Drawing.Size(300, 50);
+            this.ground2.TabIndex = 4;
+            this.ground2.TabStop = false;
+            this.ground2.Tag = "platform";
             // 
-            // Ground_1
+            // ground1
             // 
-            this.Ground_1.Image = ((System.Drawing.Image)(resources.GetObject("Ground_1.Image")));
-            this.Ground_1.Location = new System.Drawing.Point(1, 510);
-            this.Ground_1.Name = "Ground_1";
-            this.Ground_1.Size = new System.Drawing.Size(300, 50);
-            this.Ground_1.TabIndex = 5;
-            this.Ground_1.TabStop = false;
-            this.Ground_1.Tag = "Ground";
+            this.ground1.Image = ((System.Drawing.Image)(resources.GetObject("ground1.Image")));
+            this.ground1.Location = new System.Drawing.Point(0, 510);
+            this.ground1.Name = "ground1";
+            this.ground1.Size = new System.Drawing.Size(300, 50);
+            this.ground1.TabIndex = 5;
+            this.ground1.TabStop = false;
+            this.ground1.Tag = "platform";
             // 
-            // stone_1
+            // stone1
             // 
-            this.stone_1.Image = ((System.Drawing.Image)(resources.GetObject("stone_1.Image")));
-            this.stone_1.Location = new System.Drawing.Point(255, 433);
-            this.stone_1.Name = "stone_1";
-            this.stone_1.Size = new System.Drawing.Size(100, 20);
-            this.stone_1.TabIndex = 7;
-            this.stone_1.TabStop = false;
-            this.stone_1.Tag = "Stone";
+            this.stone1.Image = ((System.Drawing.Image)(resources.GetObject("stone1.Image")));
+            this.stone1.Location = new System.Drawing.Point(255, 430);
+            this.stone1.Name = "stone1";
+            this.stone1.Size = new System.Drawing.Size(100, 20);
+            this.stone1.TabIndex = 7;
+            this.stone1.TabStop = false;
+            this.stone1.Tag = "platform";
             // 
-            // stone_2
+            // stone2
             // 
-            this.stone_2.Image = ((System.Drawing.Image)(resources.GetObject("stone_2.Image")));
-            this.stone_2.Location = new System.Drawing.Point(56, 370);
-            this.stone_2.Name = "stone_2";
-            this.stone_2.Size = new System.Drawing.Size(100, 20);
-            this.stone_2.TabIndex = 8;
-            this.stone_2.TabStop = false;
-            this.stone_2.Tag = "Stone";
+            this.stone2.Image = ((System.Drawing.Image)(resources.GetObject("stone2.Image")));
+            this.stone2.Location = new System.Drawing.Point(56, 370);
+            this.stone2.Name = "stone2";
+            this.stone2.Size = new System.Drawing.Size(100, 20);
+            this.stone2.TabIndex = 8;
+            this.stone2.TabStop = false;
+            this.stone2.Tag = "platform";
             // 
-            // stone_3
+            // stone3
             // 
-            this.stone_3.Image = ((System.Drawing.Image)(resources.GetObject("stone_3.Image")));
-            this.stone_3.Location = new System.Drawing.Point(220, 306);
-            this.stone_3.Name = "stone_3";
-            this.stone_3.Size = new System.Drawing.Size(100, 20);
-            this.stone_3.TabIndex = 9;
-            this.stone_3.TabStop = false;
-            this.stone_3.Tag = "Stone";
+            this.stone3.Image = ((System.Drawing.Image)(resources.GetObject("stone3.Image")));
+            this.stone3.Location = new System.Drawing.Point(215, 314);
+            this.stone3.Name = "stone3";
+            this.stone3.Size = new System.Drawing.Size(100, 20);
+            this.stone3.TabIndex = 9;
+            this.stone3.TabStop = false;
+            this.stone3.Tag = "platform";
             // 
-            // moving_Stone_1
+            // horizontalMovingStone
             // 
-            this.moving_Stone_1.Image = ((System.Drawing.Image)(resources.GetObject("moving_Stone_1.Image")));
-            this.moving_Stone_1.Location = new System.Drawing.Point(389, 265);
-            this.moving_Stone_1.Name = "moving_Stone_1";
-            this.moving_Stone_1.Size = new System.Drawing.Size(100, 20);
-            this.moving_Stone_1.TabIndex = 10;
-            this.moving_Stone_1.TabStop = false;
-            this.moving_Stone_1.Tag = "Stone";
+            this.horizontalMovingStone.Image = ((System.Drawing.Image)(resources.GetObject("horizontalMovingStone.Image")));
+            this.horizontalMovingStone.Location = new System.Drawing.Point(340, 265);
+            this.horizontalMovingStone.Name = "horizontalMovingStone";
+            this.horizontalMovingStone.Size = new System.Drawing.Size(100, 20);
+            this.horizontalMovingStone.TabIndex = 10;
+            this.horizontalMovingStone.TabStop = false;
+            this.horizontalMovingStone.Tag = "horizontalPlatform";
             // 
-            // stone_4
+            // stone4
             // 
-            this.stone_4.Image = ((System.Drawing.Image)(resources.GetObject("stone_4.Image")));
-            this.stone_4.Location = new System.Drawing.Point(56, 231);
-            this.stone_4.Name = "stone_4";
-            this.stone_4.Size = new System.Drawing.Size(100, 20);
-            this.stone_4.TabIndex = 11;
-            this.stone_4.TabStop = false;
-            this.stone_4.Tag = "Stone";
-            this.stone_4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.stone4.Image = ((System.Drawing.Image)(resources.GetObject("stone4.Image")));
+            this.stone4.Location = new System.Drawing.Point(68, 249);
+            this.stone4.Name = "stone4";
+            this.stone4.Size = new System.Drawing.Size(100, 20);
+            this.stone4.TabIndex = 11;
+            this.stone4.TabStop = false;
+            this.stone4.Tag = "platform";
             // 
-            // stone_5
+            // stone5
             // 
-            this.stone_5.Image = ((System.Drawing.Image)(resources.GetObject("stone_5.Image")));
-            this.stone_5.Location = new System.Drawing.Point(562, 348);
-            this.stone_5.Name = "stone_5";
-            this.stone_5.Size = new System.Drawing.Size(100, 20);
-            this.stone_5.TabIndex = 12;
-            this.stone_5.TabStop = false;
-            this.stone_5.Tag = "Stone";
+            this.stone5.Image = ((System.Drawing.Image)(resources.GetObject("stone5.Image")));
+            this.stone5.Location = new System.Drawing.Point(562, 350);
+            this.stone5.Name = "stone5";
+            this.stone5.Size = new System.Drawing.Size(100, 20);
+            this.stone5.TabIndex = 12;
+            this.stone5.TabStop = false;
+            this.stone5.Tag = "platform";
             // 
-            // stone_7
+            // stone7
             // 
-            this.stone_7.Image = ((System.Drawing.Image)(resources.GetObject("stone_7.Image")));
-            this.stone_7.Location = new System.Drawing.Point(693, 420);
-            this.stone_7.Name = "stone_7";
-            this.stone_7.Size = new System.Drawing.Size(100, 20);
-            this.stone_7.TabIndex = 13;
-            this.stone_7.TabStop = false;
-            this.stone_7.Tag = "Stone";
+            this.stone7.Image = ((System.Drawing.Image)(resources.GetObject("stone7.Image")));
+            this.stone7.Location = new System.Drawing.Point(693, 420);
+            this.stone7.Name = "stone7";
+            this.stone7.Size = new System.Drawing.Size(100, 20);
+            this.stone7.TabIndex = 13;
+            this.stone7.TabStop = false;
+            this.stone7.Tag = "platform";
             // 
-            // moving_Stone_2
+            // verticalMovingStone
             // 
-            this.moving_Stone_2.Image = ((System.Drawing.Image)(resources.GetObject("moving_Stone_2.Image")));
-            this.moving_Stone_2.Location = new System.Drawing.Point(762, 231);
-            this.moving_Stone_2.Name = "moving_Stone_2";
-            this.moving_Stone_2.Size = new System.Drawing.Size(100, 20);
-            this.moving_Stone_2.TabIndex = 14;
-            this.moving_Stone_2.TabStop = false;
-            this.moving_Stone_2.Tag = "Stone";
+            this.verticalMovingStone.Image = ((System.Drawing.Image)(resources.GetObject("verticalMovingStone.Image")));
+            this.verticalMovingStone.Location = new System.Drawing.Point(760, 190);
+            this.verticalMovingStone.Name = "verticalMovingStone";
+            this.verticalMovingStone.Size = new System.Drawing.Size(100, 20);
+            this.verticalMovingStone.TabIndex = 14;
+            this.verticalMovingStone.TabStop = false;
+            this.verticalMovingStone.Tag = "verticalPlatform";
             // 
-            // stone_6
+            // stone6
             // 
-            this.stone_6.Image = ((System.Drawing.Image)(resources.GetObject("stone_6.Image")));
-            this.stone_6.Location = new System.Drawing.Point(609, 158);
-            this.stone_6.Name = "stone_6";
-            this.stone_6.Size = new System.Drawing.Size(100, 20);
-            this.stone_6.TabIndex = 15;
-            this.stone_6.TabStop = false;
-            this.stone_6.Tag = "Stone";
+            this.stone6.Image = ((System.Drawing.Image)(resources.GetObject("stone6.Image")));
+            this.stone6.Location = new System.Drawing.Point(609, 158);
+            this.stone6.Name = "stone6";
+            this.stone6.Size = new System.Drawing.Size(100, 20);
+            this.stone6.TabIndex = 15;
+            this.stone6.TabStop = false;
+            this.stone6.Tag = "platform";
             // 
             // player
             // 
@@ -222,155 +224,173 @@
             // 
             this.pointer.BackColor = System.Drawing.Color.Transparent;
             this.pointer.Image = ((System.Drawing.Image)(resources.GetObject("pointer.Image")));
-            this.pointer.Location = new System.Drawing.Point(827, 470);
+            this.pointer.Location = new System.Drawing.Point(830, 470);
             this.pointer.Name = "pointer";
             this.pointer.Size = new System.Drawing.Size(45, 40);
             this.pointer.TabIndex = 17;
             this.pointer.TabStop = false;
-            this.pointer.Tag = "Pointer";
-            // 
-            // money_2
-            // 
-            this.money_2.BackColor = System.Drawing.Color.Transparent;
-            this.money_2.Image = ((System.Drawing.Image)(resources.GetObject("money_2.Image")));
-            this.money_2.Location = new System.Drawing.Point(168, 479);
-            this.money_2.Name = "money_2";
-            this.money_2.Size = new System.Drawing.Size(25, 25);
-            this.money_2.TabIndex = 18;
-            this.money_2.TabStop = false;
-            this.money_2.Tag = "Money";
-            // 
-            // enemy_1
-            // 
-            this.enemy_1.BackColor = System.Drawing.Color.Transparent;
-            this.enemy_1.Image = ((System.Drawing.Image)(resources.GetObject("enemy_1.Image")));
-            this.enemy_1.Location = new System.Drawing.Point(295, 410);
-            this.enemy_1.Name = "enemy_1";
-            this.enemy_1.Size = new System.Drawing.Size(25, 25);
-            this.enemy_1.TabIndex = 19;
-            this.enemy_1.TabStop = false;
-            this.enemy_1.Tag = "Enemy";
-            // 
-            // money_4
-            // 
-            this.money_4.BackColor = System.Drawing.Color.Transparent;
-            this.money_4.Image = ((System.Drawing.Image)(resources.GetObject("money_4.Image")));
-            this.money_4.Location = new System.Drawing.Point(230, 479);
-            this.money_4.Name = "money_4";
-            this.money_4.Size = new System.Drawing.Size(25, 25);
-            this.money_4.TabIndex = 21;
-            this.money_4.TabStop = false;
-            this.money_4.Tag = "Money";
-            // 
-            // money_1
-            // 
-            this.money_1.BackColor = System.Drawing.Color.Transparent;
-            this.money_1.Image = ((System.Drawing.Image)(resources.GetObject("money_1.Image")));
-            this.money_1.Location = new System.Drawing.Point(261, 479);
-            this.money_1.Name = "money_1";
-            this.money_1.Size = new System.Drawing.Size(25, 25);
-            this.money_1.TabIndex = 22;
-            this.money_1.TabStop = false;
-            this.money_1.Tag = "Money";
-            // 
-            // money_5
-            // 
-            this.money_5.BackColor = System.Drawing.Color.Transparent;
-            this.money_5.Image = ((System.Drawing.Image)(resources.GetObject("money_5.Image")));
-            this.money_5.Location = new System.Drawing.Point(79, 200);
-            this.money_5.Name = "money_5";
-            this.money_5.Size = new System.Drawing.Size(25, 25);
-            this.money_5.TabIndex = 23;
-            this.money_5.TabStop = false;
-            this.money_5.Tag = "Money";
-            // 
-            // money_6
-            // 
-            this.money_6.BackColor = System.Drawing.Color.Transparent;
-            this.money_6.Image = ((System.Drawing.Image)(resources.GetObject("money_6.Image")));
-            this.money_6.Location = new System.Drawing.Point(110, 200);
-            this.money_6.Name = "money_6";
-            this.money_6.Size = new System.Drawing.Size(25, 25);
-            this.money_6.TabIndex = 24;
-            this.money_6.TabStop = false;
-            this.money_6.Tag = "Money";
-            // 
-            // money_8
-            // 
-            this.money_8.BackColor = System.Drawing.Color.Transparent;
-            this.money_8.Image = ((System.Drawing.Image)(resources.GetObject("money_8.Image")));
-            this.money_8.Location = new System.Drawing.Point(632, 127);
-            this.money_8.Name = "money_8";
-            this.money_8.Size = new System.Drawing.Size(25, 25);
-            this.money_8.TabIndex = 25;
-            this.money_8.TabStop = false;
-            this.money_8.Tag = "Money";
-            // 
-            // money_9
-            // 
-            this.money_9.BackColor = System.Drawing.Color.Transparent;
-            this.money_9.Image = ((System.Drawing.Image)(resources.GetObject("money_9.Image")));
-            this.money_9.Location = new System.Drawing.Point(663, 127);
-            this.money_9.Name = "money_9";
-            this.money_9.Size = new System.Drawing.Size(25, 25);
-            this.money_9.TabIndex = 26;
-            this.money_9.TabStop = false;
-            this.money_9.Tag = "Money";
-            // 
-            // money_10
-            // 
-            this.money_10.BackColor = System.Drawing.Color.Transparent;
-            this.money_10.Image = ((System.Drawing.Image)(resources.GetObject("money_10.Image")));
-            this.money_10.Location = new System.Drawing.Point(598, 479);
-            this.money_10.Name = "money_10";
-            this.money_10.Size = new System.Drawing.Size(25, 25);
-            this.money_10.TabIndex = 27;
-            this.money_10.TabStop = false;
-            this.money_10.Tag = "Money";
-            // 
-            // money_11
-            // 
-            this.money_11.BackColor = System.Drawing.Color.Transparent;
-            this.money_11.Image = ((System.Drawing.Image)(resources.GetObject("money_11.Image")));
-            this.money_11.Location = new System.Drawing.Point(629, 479);
-            this.money_11.Name = "money_11";
-            this.money_11.Size = new System.Drawing.Size(25, 25);
-            this.money_11.TabIndex = 28;
-            this.money_11.TabStop = false;
-            this.money_11.Tag = "Money";
-            // 
-            // money_12
-            // 
-            this.money_12.BackColor = System.Drawing.Color.Transparent;
-            this.money_12.Image = ((System.Drawing.Image)(resources.GetObject("money_12.Image")));
-            this.money_12.Location = new System.Drawing.Point(660, 479);
-            this.money_12.Name = "money_12";
-            this.money_12.Size = new System.Drawing.Size(25, 25);
-            this.money_12.TabIndex = 29;
-            this.money_12.TabStop = false;
-            this.money_12.Tag = "Money";
-            // 
-            // money_3
-            // 
-            this.money_3.BackColor = System.Drawing.Color.Transparent;
-            this.money_3.Image = ((System.Drawing.Image)(resources.GetObject("money_3.Image")));
-            this.money_3.Location = new System.Drawing.Point(199, 479);
-            this.money_3.Name = "money_3";
-            this.money_3.Size = new System.Drawing.Size(25, 25);
-            this.money_3.TabIndex = 30;
-            this.money_3.TabStop = false;
-            this.money_3.Tag = "Money";
+            this.pointer.Tag = "pointer";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(598, 325);
+            this.pictureBox1.Location = new System.Drawing.Point(174, 479);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "Enemy";
+            this.pictureBox1.Tag = "coin";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(205, 479);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "coin";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(236, 479);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox3.TabIndex = 33;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Tag = "coin";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(267, 479);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox4.TabIndex = 34;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Tag = "coin";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(119, 218);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.TabIndex = 36;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "coin";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(88, 218);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox6.TabIndex = 35;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Tag = "coin";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(663, 127);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox7.TabIndex = 38;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Tag = "coin";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(632, 127);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox8.TabIndex = 37;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Tag = "coin";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(632, 479);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox9.TabIndex = 40;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Tag = "coin";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(601, 479);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox10.TabIndex = 39;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Tag = "coin";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(693, 479);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox11.TabIndex = 42;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Tag = "coin";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(662, 479);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox12.TabIndex = 41;
+            this.pictureBox12.TabStop = false;
+            this.pictureBox12.Tag = "coin";
+            // 
+            // enemy2
+            // 
+            this.enemy2.BackColor = System.Drawing.Color.Transparent;
+            this.enemy2.Image = ((System.Drawing.Image)(resources.GetObject("enemy2.Image")));
+            this.enemy2.Location = new System.Drawing.Point(630, 325);
+            this.enemy2.Name = "enemy2";
+            this.enemy2.Size = new System.Drawing.Size(25, 25);
+            this.enemy2.TabIndex = 43;
+            this.enemy2.TabStop = false;
+            this.enemy2.Tag = "enemy";
+            // 
+            // gameTimer
+            // 
+            this.gameTimer.Enabled = true;
+            this.gameTimer.Interval = 20;
+            this.gameTimer.Tag = "timer";
+            this.gameTimer.Tick += new System.EventHandler(this.MainGameTimerEvent);
+            // 
+            // enemy1
+            // 
+            this.enemy1.BackColor = System.Drawing.Color.Transparent;
+            this.enemy1.Image = ((System.Drawing.Image)(resources.GetObject("enemy1.Image")));
+            this.enemy1.Location = new System.Drawing.Point(267, 405);
+            this.enemy1.Name = "enemy1";
+            this.enemy1.Size = new System.Drawing.Size(25, 25);
+            this.enemy1.TabIndex = 44;
+            this.enemy1.TabStop = false;
+            this.enemy1.Tag = "enemy";
             // 
             // Window
             // 
@@ -379,94 +399,100 @@
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(884, 561);
+            this.Controls.Add(this.enemy1);
+            this.Controls.Add(this.enemy2);
+            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.money_3);
-            this.Controls.Add(this.money_12);
-            this.Controls.Add(this.money_11);
-            this.Controls.Add(this.money_10);
-            this.Controls.Add(this.money_9);
-            this.Controls.Add(this.money_8);
-            this.Controls.Add(this.money_6);
-            this.Controls.Add(this.money_5);
-            this.Controls.Add(this.money_1);
-            this.Controls.Add(this.money_4);
-            this.Controls.Add(this.enemy_1);
-            this.Controls.Add(this.money_2);
             this.Controls.Add(this.pointer);
             this.Controls.Add(this.player);
-            this.Controls.Add(this.stone_6);
-            this.Controls.Add(this.moving_Stone_2);
-            this.Controls.Add(this.stone_7);
-            this.Controls.Add(this.stone_5);
-            this.Controls.Add(this.stone_4);
-            this.Controls.Add(this.moving_Stone_1);
-            this.Controls.Add(this.stone_3);
-            this.Controls.Add(this.stone_2);
-            this.Controls.Add(this.stone_1);
-            this.Controls.Add(this.Ground_1);
-            this.Controls.Add(this.Ground_2);
-            this.Controls.Add(this.Score);
+            this.Controls.Add(this.stone6);
+            this.Controls.Add(this.verticalMovingStone);
+            this.Controls.Add(this.stone7);
+            this.Controls.Add(this.stone5);
+            this.Controls.Add(this.stone4);
+            this.Controls.Add(this.horizontalMovingStone);
+            this.Controls.Add(this.stone3);
+            this.Controls.Add(this.stone2);
+            this.Controls.Add(this.stone1);
+            this.Controls.Add(this.ground1);
+            this.Controls.Add(this.ground2);
+            this.Controls.Add(this.scoreText);
             this.Name = "Window";
             this.Text = "Platformer";
-            ((System.ComponentModel.ISupportInitialize)(this.Ground_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ground_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.moving_Stone_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.moving_Stone_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stone_6)).EndInit();
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyIsUp);
+            ((System.ComponentModel.ISupportInitialize)(this.ground2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ground1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.horizontalMovingStone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.verticalMovingStone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stone6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pointer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemy_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.money_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label Score;
-        private System.Windows.Forms.PictureBox Ground_2;
-        private System.Windows.Forms.PictureBox Ground_1;
-        private System.Windows.Forms.PictureBox stone_1;
-        private System.Windows.Forms.PictureBox stone_2;
-        private System.Windows.Forms.PictureBox stone_3;
-        private System.Windows.Forms.PictureBox moving_Stone_1;
-        private System.Windows.Forms.PictureBox stone_4;
-        private System.Windows.Forms.PictureBox stone_5;
-        private System.Windows.Forms.PictureBox stone_7;
-        private System.Windows.Forms.PictureBox moving_Stone_2;
-        private System.Windows.Forms.PictureBox stone_6;
+        private System.Windows.Forms.Label scoreText;
+        private System.Windows.Forms.PictureBox ground2;
+        private System.Windows.Forms.PictureBox ground1;
+        private System.Windows.Forms.PictureBox stone1;
+        private System.Windows.Forms.PictureBox stone2;
+        private System.Windows.Forms.PictureBox stone3;
+        private System.Windows.Forms.PictureBox horizontalMovingStone;
+        private System.Windows.Forms.PictureBox stone4;
+        private System.Windows.Forms.PictureBox stone5;
+        private System.Windows.Forms.PictureBox stone7;
+        private System.Windows.Forms.PictureBox verticalMovingStone;
+        private System.Windows.Forms.PictureBox stone6;
         private System.Windows.Forms.PictureBox player;
         private System.Windows.Forms.PictureBox pointer;
-        private System.Windows.Forms.PictureBox money_2;
-        private System.Windows.Forms.PictureBox enemy_1;
-        private System.Windows.Forms.PictureBox money_4;
-        private System.Windows.Forms.PictureBox money_1;
-        private System.Windows.Forms.PictureBox money_5;
-        private System.Windows.Forms.PictureBox money_6;
-        private System.Windows.Forms.PictureBox money_8;
-        private System.Windows.Forms.PictureBox money_9;
-        private System.Windows.Forms.PictureBox money_10;
-        private System.Windows.Forms.PictureBox money_11;
-        private System.Windows.Forms.PictureBox money_12;
-        private System.Windows.Forms.PictureBox money_3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox enemy2;
+        private System.Windows.Forms.Timer gameTimer;
+        private System.Windows.Forms.PictureBox enemy1;
     }
 }
 
